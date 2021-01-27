@@ -37,7 +37,6 @@ public class ModelRequestParamProcessor extends ServletModelAttributeMethodProce
     protected void bindRequestParameters(WebDataBinder binder, NativeWebRequest nativeWebRequest) {
         Object target = binder.getTarget();
         if (target == null) {
-            logger.info("Target is null");
             return;
         }
         Class<?> targetClass = target.getClass();
