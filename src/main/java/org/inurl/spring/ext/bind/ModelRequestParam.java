@@ -1,4 +1,4 @@
-package org.inurl.spring.ext.bind.annotation;
+package org.inurl.spring.ext.bind;
 
 import org.springframework.core.annotation.AliasFor;
 

@@ -1,13 +1,8 @@
 package org.inurl.spring.ext.bind;
 
-import org.inurl.spring.ext.bind.annotation.ModelRequestParam;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.annotation.AnnotationUtils;
-import org.springframework.core.annotation.MergedAnnotations;
 import org.springframework.web.bind.WebDataBinder;
-import org.springframework.web.bind.support.WebBindingInitializer;
 import org.springframework.web.context.request.NativeWebRequest;
-import org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter;
 import org.springframework.web.servlet.mvc.method.annotation.ServletModelAttributeMethodProcessor;
 
 import java.lang.reflect.Field;
@@ -28,7 +23,6 @@ public class ModelRequestParamProcessor extends ServletModelAttributeMethodProce
      */
     private final Map<Class<?>, Map<String, String>> mappingCache = new ConcurrentHashMap<>();
 
-    @Autowired
     public ModelRequestParamProcessor() {
         super(true);
     }

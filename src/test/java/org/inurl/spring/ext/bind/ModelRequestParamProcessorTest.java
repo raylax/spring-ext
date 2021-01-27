@@ -1,7 +1,6 @@
 package org.inurl.spring.ext.bind;
 
 import com.google.common.collect.ImmutableMap;
-import org.inurl.spring.ext.bind.annotation.ModelRequestParam;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.core.MethodParameter;
