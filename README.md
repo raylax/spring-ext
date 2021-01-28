@@ -8,6 +8,8 @@
 - org.inurl.spring.ext.bind.ModelRequestParamProcessor
 - org.inurl.spring.ext.bind.ModelRequestParam
 
+参考[https://stackoverflow.com/a/16520399](https://stackoverflow.com/a/16520399)
+
 ```java
 // WebMvcConfiguration.java
 @Configuration
