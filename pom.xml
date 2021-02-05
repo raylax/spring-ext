@@ -20,7 +20,7 @@
         <url>https://github.com/raylax/spring-ext.git</url>
         <connection>scm:git:https://github.com/raylax/spring-ext.git</connection>
         <developerConnection>scm:git:https://github.com/raylax/spring-ext.git</developerConnection>
-        <tag>1.0.0-r</tag>
+        <tag>1.0.0</tag>
     </scm>
     <developers>
         <developer>
