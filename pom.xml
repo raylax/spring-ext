@@ -11,7 +11,7 @@
 
     <groupId>org.inurl</groupId>
     <artifactId>inurl-spring-ext</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
     <name>${project.artifactId}</name>
     <description>inurl spring ext</description>
     <url>https://github.com/raylax/spring-ext</url>
