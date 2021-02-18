@@ -3,6 +3,15 @@
 [![codecov](https://codecov.io/gh/raylax/spring-ext/branch/master/graph/badge.svg?token=jeohIpN2RI)](https://codecov.io/gh/raylax/spring-ext)
 [![maven](https://img.shields.io/maven-central/v/org.inurl/inurl-spring-ext)](https://mvnrepository.com/artifact/org.inurl)
 ![license](https://img.shields.io/github/license/raylax/spring-ext)
+# 引入依赖
+```xml
+<!-- https://mvnrepository.com/artifact/org.inurl/inurl-spring-ext -->
+<dependency>
+    <groupId>org.inurl</groupId>
+    <artifactId>inurl-spring-ext</artifactId>
+    <version>1.0.0</version>
+</dependency>
+```
 # 数据绑定
 ## 支持url参数使用model绑定进行重映射
 - org.inurl.spring.ext.bind.ModelRequestParamProcessor
